@@ -66,10 +66,8 @@ your boxen:
 ```
 sudo mkdir -p /opt/boxen
 sudo chown ${USER}:staff /opt/boxen
-git clone https://github.com/boxen/our-boxen /opt/boxen/repo
+git clone https://github.com/fusion94/boxen /opt/boxen/repo
 cd /opt/boxen/repo
-git remote rm origin
-git remote add origin <the location of my new git repository>
 git push -u origin master
 ```
 
@@ -98,9 +96,9 @@ If you _don't_ want to use boxen-web, folks can get using your boxen like so:
 ```
 sudo mkdir -p /opt/boxen
 sudo chown ${USER}:staff /opt/boxen
-git clone <location of my new git repository> /opt/boxen/repo
+git clone https://github.com/fusion94/boxen /opt/boxen/repo
 cd /opt/boxen/repo
-./script/boxen
+ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future ./script/boxen ./script/boxen --no-fde
 ```
 
 Keep in mind this requires you to encrypt your hard drive by default.
