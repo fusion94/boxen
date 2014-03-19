@@ -14,5 +14,11 @@ class people::fusion94::applications {
   include packer
   include vmware_fusion
   include virtualbox
-
+  include java
+  include osx
+  include transmit
+  include omnigraffle::pro
+  include heroku
+  include skitch
+  include linkinus
 }
