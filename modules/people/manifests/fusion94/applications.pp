@@ -3,4 +3,10 @@ class people::fusion94::applications {
   include onepassword
   include dropbox
   include chrome
+  include firefox
+  include alfred
+  include evernote
+  include googledrive
+  include hipchat
+  include skype
 }
