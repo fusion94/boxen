@@ -21,4 +21,12 @@ class people::fusion94::applications {
   include skitch
   include linkinus
   include osx::finder::show_hard_drives_on_desktop
+  include osx::disable_app_quarantine
+
+  package {
+  "Google Hangout Plugin":
+  source => "http://dl.google.com/googletalk/googletalkplugin/GoogleVoiceAndVideoSetup.dmg",
+  provider => pkgdmg;
+  }
+
 }
