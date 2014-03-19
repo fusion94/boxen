@@ -20,7 +20,7 @@ class people::fusion94::applications {
   include heroku
   include skitch
   include linkinus
-  include rvm
+  include stdlib
   include osx::finder::show_hard_drives_on_desktop
   include osx::disable_app_quarantine
 
