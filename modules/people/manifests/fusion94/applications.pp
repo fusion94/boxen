@@ -15,10 +15,10 @@ class people::fusion94::applications {
   include vmware_fusion
   include virtualbox
   include java
-  include osx
   include transmit
   include omnigraffle::pro
   include heroku
   include skitch
   include linkinus
+  include osx::finder::show_hard_drives_on_desktop
 }
