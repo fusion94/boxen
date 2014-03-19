@@ -98,7 +98,7 @@ sudo mkdir -p /opt/boxen
 sudo chown ${USER}:staff /opt/boxen
 git clone https://github.com/fusion94/boxen /opt/boxen/repo
 cd /opt/boxen/repo
-ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future ./script/boxen ./script/boxen --no-fde
+ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future ./script/boxen --no-fde
 ```
 
 Keep in mind this requires you to encrypt your hard drive by default.
