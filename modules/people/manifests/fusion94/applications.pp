@@ -9,4 +9,10 @@ class people::fusion94::applications {
   include googledrive
   include hipchat
   include skype
+  include sourcetree
+  include vagrant
+  include packer
+  include vmware_fusion
+  include virtualbox
+
 }
